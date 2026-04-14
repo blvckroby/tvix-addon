@@ -1,0 +1,11 @@
+{
+  "id": "com.roby.tvix.multi",
+  "name": "TVIX Multi Catalog",
+  "description": "Addon con cataloghi selezionabili",
+  "version": "1.0.0",
+  "logo": "https://raw.githubusercontent.com/blvckroby/MusicDB/main/loghi/dazn.png",
+  "background": "https://raw.githubusercontent.com/blvckroby/MusicDB/main/loghi/dazn.png",
+  "resources": ["catalog", "stream"],
+  "types": ["tv"],
+  "idPrefixes": ["tv:"]
+}
