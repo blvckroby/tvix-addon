@@ -350,6 +350,8 @@
 </div>
 
 <script>
+const BASE_URL = "https://tvix-addon.hf.space"; // URL del tuo Space Hugging Face
+
 const catalogs = [
   { value: "rai", name: "RAI", icon: "📺" },
   { value: "mediaset", name: "Mediaset", icon: "📡" },
@@ -418,7 +420,7 @@ function generaECopia() {
   }
 
   const selected = Array.from(selectedCatalogs).join(",");
-  manifestURL = `http://127.0.0.1:7000/manifest.json?catalogs=${selected}`;
+  manifestURL = `${BASE_URL}/manifest.json?catalogs=${selected}`;
 
   navigator.clipboard.writeText(manifestURL).then(() => {
     showResult(`
