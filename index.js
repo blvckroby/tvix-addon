@@ -97,5 +97,5 @@ app.get("/stream/tv/:id.json", async (req, res) => {
 // AVVIO
 app.listen(PORT, () => {
   console.log(`Addon attivo su http://127.0.0.1:${PORT}`);
-  console.log(`Configura cataloghi su http://127.0.0.1:${PORT}/config.html`);
+  console.log(`Configura cataloghi su https://blvckroby-tvix-addon.hf.space/config.html`);
 });
